@@ -1,1 +1,1 @@
-# DenuwanJayasekara.github.io
+# denuwanjayasekara.github.io
