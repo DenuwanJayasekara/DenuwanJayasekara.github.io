@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Denuwan Jayasekara — Portfolio</title>
+  <meta name="description" content="The portfolio of Denuwan Jayasekara: projects, skills, and contact.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">DJ</a>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="section hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="accent">Denuwan</span>.</h1>
+          <p class="lead">Front‑end enthusiast crafting clean, fast, and accessible web experiences.</p>
+          <div class="cta-row">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero-avatar" aria-hidden="true">
+          <div class="avatar"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container grid-2">
+        <div>
+          <h2>About Me</h2>
+          <p>I build user‑focused interfaces with attention to detail, performance, and accessibility. I enjoy turning complex problems into simple, beautiful designs.</p>
+          <p>My toolkit includes HTML, CSS, JavaScript, and modern frameworks. I'm always learning and experimenting.</p>
+        </div>
+        <ul class="tag-list" aria-label="Skills">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>Responsive Design</li>
+          <li>Accessibility</li>
+          <li>Git</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="cards">
+          <article class="card">
+            <div class="card-body">
+              <h3>Project One</h3>
+              <p>A brief description of your project. What problem did it solve? What did you learn?</p>
+            </div>
+            <div class="card-footer">
+              <a class="btn small" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h3>Project Two</h3>
+              <p>Another project highlight. Keep it short and focused on outcomes and stack.</p>
+            </div>
+            <div class="card-footer">
+              <a class="btn small" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+          <article class="card">
+            <div class="card-body">
+              <h3>Project Three</h3>
+              <p>A simple card to show another cool thing you built.</p>
+            </div>
+            <div class="card-footer">
+              <a class="btn small" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="btn small ghost" href="#" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Want to collaborate or say hi? Reach me here:</p>
+        <div class="links">
+          <a href="mailto:your.email@example.com" class="link">Email</a>
+          <a href="#" class="link" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="#" class="link" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Denuwan Jayasekara. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+
